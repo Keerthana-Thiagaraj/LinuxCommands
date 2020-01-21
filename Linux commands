@@ -1,0 +1,13 @@
+
+
+
+monit - > shows the status of the running process
+monit summary -> confirms whether tomcat is running
+netstat-> command line tool that displays network connections(both incoming & outgoing)
+netstat -l -> shows the list of the processes listening
+netstat -s -> shows the statistics of the protocols
+netstat -an | grep 'LISTEN' -> greps the listening status
+ps -ef | grep 'tomcat' -> 
+	1. ps(list all processes)
+	2. -e (list all the process irrelevant of the user)
+	3. -f (show processes in full format (more detailed than default)
